@@ -1,0 +1,15 @@
+{
+  "task": 1,
+  "name": "Critique",
+  "input": "This system works correctly",
+  "issues": [
+    "missing_keyword",
+    "no_period"
+  ],
+  "rules": {
+    "max_words": 12,
+    "min_words": 3,
+    "must_include": "agent",
+    "must_end_with": "."
+  }
+}

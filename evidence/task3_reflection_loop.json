@@ -1,0 +1,25 @@
+{
+  "task": 3,
+  "name": "Reflection Loop",
+  "result": {
+    "final": "This is a really quite long sentence about how every single agent.",
+    "rounds": 2,
+    "converged": true,
+    "history": [
+      {
+        "round": 1,
+        "text": "This is a really quite long sentence about how every single software system works today",
+        "issues": [
+          "too_long",
+          "missing_keyword",
+          "no_period"
+        ]
+      },
+      {
+        "round": 2,
+        "text": "This is a really quite long sentence about how every single agent.",
+        "issues": []
+      }
+    ]
+  }
+}

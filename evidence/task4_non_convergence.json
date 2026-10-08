@@ -1,0 +1,37 @@
+{
+  "task": 4,
+  "name": "Non-Convergence",
+  "result": {
+    "final": "This is a really quite long sentence about how every single software system works today",
+    "rounds": 3,
+    "converged": false,
+    "history": [
+      {
+        "round": 1,
+        "text": "This is a really quite long sentence about how every single software system works today",
+        "issues": [
+          "impossible_issue"
+        ]
+      },
+      {
+        "round": 2,
+        "text": "This is a really quite long sentence about how every single software system works today",
+        "issues": [
+          "impossible_issue"
+        ]
+      },
+      {
+        "round": 3,
+        "text": "This is a really quite long sentence about how every single software system works today",
+        "issues": [
+          "impossible_issue"
+        ]
+      }
+    ]
+  },
+  "expected_behavior": {
+    "converged": false,
+    "rounds": 3,
+    "termination": "max_rounds"
+  }
+}
